@@ -33,7 +33,7 @@ User-Agent. Wyniki tych testów s± dostêpne poprzez metody obiektu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
