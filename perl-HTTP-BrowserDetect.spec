@@ -3,8 +3,8 @@
 %define	pdir	HTTP
 %define	pnam	BrowserDetect
 
-Summary:	HTTP-BrowserDetect perl module
-Summary(pl):	Modu³ perla HTTP-BrowserDetect
+Summary:	HTTP::BrowserDetect perl module
+Summary(pl):	Modu³ perla HTTP::BrowserDetect
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.96
 Release:	1
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTTP-BrowserDetect perl module.
+HTTP::BrowserDetect perl module.
 
 %description -l pl
-Modu³ perla HTTP-BrowserDetect.
+Modu³ perla HTTP::BrowserDetect.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
