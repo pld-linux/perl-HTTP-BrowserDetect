@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTTP
 %define	pnam	BrowserDetect
-Summary:	Determine the Web browser, version, and platform from an HTTP user agent string
-Summary(pl):	Modu³ okre¶laj±cy przegl±darkê WWW, wersjê i platformê z nag³ówka HTTP User-Agent
+Summary:	HTTP::BrowserDetect - determine the Web browser, version, and platform from an HTTP user agent string
+Summary(pl):	HTTP::BrowserDetect - modu³ okre¶laj±cy przegl±darkê WWW, wersjê i platformê z nag³ówka HTTP User-Agent
 Name:		perl-HTTP-BrowserDetect
 Version:	0.97
 Release:	2
