@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTTP
 %define	pnam	BrowserDetect
 Summary:	Determine the Web browser, version, and platform from an HTTP user agent string
 Summary(pl):	Modu³ okre¶laj±cy przegl±darkê WWW, wersjê i platformê z nag³ówka HTTP User-Agent
-Name:		perl-%{pdir}-%{pnam}
-Version:	0.96
-Release:	3
+Name:		perl-HTTP-BrowserDetect
+Version:	0.97
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -29,6 +33,7 @@ User-Agent. Wyniki tych testów s± dostêpne poprzez metody obiektu.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
