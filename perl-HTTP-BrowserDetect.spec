@@ -10,7 +10,8 @@ Summary(pl):	HTTP::BrowserDetect - modu³ okre¶laj±cy przegl±darkê WWW, wersjê i 
 Name:		perl-HTTP-BrowserDetect
 Version:	0.97
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bd0d645e54f55077f27db3de579f036b
