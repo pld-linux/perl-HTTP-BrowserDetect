@@ -9,7 +9,7 @@ Summary:	Determine the Web browser, version, and platform from an HTTP user agen
 Summary(pl):	Modu³ okre¶laj±cy przegl±darkê WWW, wersjê i platformê z nag³ówka HTTP User-Agent
 Name:		perl-HTTP-BrowserDetect
 Version:	0.97
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
