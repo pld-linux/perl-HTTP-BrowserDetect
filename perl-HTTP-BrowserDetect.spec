@@ -6,7 +6,7 @@
 %define		pdir	HTTP
 %define		pnam	BrowserDetect
 Summary:	HTTP::BrowserDetect - determine the Web browser, version, and platform from an HTTP user agent string
-Summary(pl):	HTTP::BrowserDetect - modu³ okre¶laj±cy przegl±darkê WWW, wersjê i platformê z nag³ówka HTTP User-Agent
+Summary(pl.UTF-8):   HTTP::BrowserDetect - moduÅ‚ okreÅ›lajÄ…cy przeglÄ…darkÄ™ WWW, wersjÄ™ i platformÄ™ z nagÅ‚Ã³wka HTTP User-Agent
 Name:		perl-HTTP-BrowserDetect
 Version:	0.98
 Release:	1
@@ -25,9 +25,9 @@ The HTTP::BrowserDetect object does a number of tests on an HTTP user
 agent string.  The results of these tests are available via methods of
 the object.
 
-%description -l pl
-Obiekt HTTP::BrowserDetect wykonuje wiele testów na nag³ówku HTTP
-User-Agent. Wyniki tych testów s± dostêpne poprzez metody obiektu.
+%description -l pl.UTF-8
+Obiekt HTTP::BrowserDetect wykonuje wiele testÃ³w na nagÅ‚Ã³wku HTTP
+User-Agent. Wyniki tych testÃ³w sÄ… dostÄ™pne poprzez metody obiektu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
