@@ -8,15 +8,19 @@
 Summary:	HTTP::BrowserDetect - determine the Web browser, version, and platform from an HTTP user agent string
 Summary(pl.UTF-8):	HTTP::BrowserDetect - moduł określający przeglądarkę WWW, wersję i platformę z nagłówka HTTP User-Agent
 Name:		perl-HTTP-BrowserDetect
-Version:	1.39
+Version:	1.41
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1847317df5fd67a53c92305f5b20faa2
+# Source0-md5:	b743ea93895196a677bc62dd7a85b455
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Data-Dump
+BuildRequires:	perl-File-Slurp
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
