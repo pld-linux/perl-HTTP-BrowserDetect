@@ -4,7 +4,6 @@
 
 %define		pdir	HTTP
 %define		pnam	BrowserDetect
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTTP::BrowserDetect - determine the Web browser, version, and platform from an HTTP user agent string
 Summary(pl.UTF-8):	HTTP::BrowserDetect - moduł określający przeglądarkę WWW, wersję i platformę z nagłówka HTTP User-Agent
 Name:		perl-HTTP-BrowserDetect
